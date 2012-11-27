@@ -1,0 +1,8 @@
+#!/usr/bin/env coffee
+
+# Simple script to extra INI settings from an ini file with sections
+
+ini = require 'node-ini'
+args = process.argv
+cfg = ini.parseSync args[2]
+console.log cfg[args[3]][args[4]]
