@@ -1,18 +1,28 @@
 {
-	"name": "jobtest",
-	"description": "Job Test",
-	"version": "0.0.1",
-	"dependencies": {
-		"http": "",
-		"coffee-script": "*",
-		"express": "3.x.x",
-		"connect-assets": "",
-		"jade": "",
-		"stylus": "",
-		"node-ini": "",
-		"mysql": "2.0.0-alpha3"
-	},
-	"scripts": {
-		"start": "coffee app.coffee"
-	}
+  "name": "jobtest",
+  "description": "Job Test",
+  "version": "0.0.1",
+  "dependencies": {
+    "http": "",
+    "coffee-script": "*",
+    "express": "3.x.x",
+    "connect-assets": "",
+    "jade": "",
+    "stylus": "",
+    "node-ini": "",
+    "mysql": "2.0.0-alpha3"
+  },
+  "scripts": {
+    "start": "coffee app.coffee"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-coffee-jshint": "^1.0.0",
+    "grunt-contrib-coffee": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.0",
+    "grunt-contrib-copy": "^1.0.0"
+  }
 }
